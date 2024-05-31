@@ -6,7 +6,6 @@ import { config } from "dotenv";
 
 config();
 
-// const process.env.API_KEY = "ZtVdh8XQ2U8pWI2gmZ7f796Vh8GllXoN7mr0djNf";
 const BASE_URL = "https://api.tech.redventures.com.br";
 
 export const getAllBroths = async (): Promise<IListAvailable[]> => {

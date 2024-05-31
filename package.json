@@ -1,25 +1,29 @@
 {
-  "name": "ramengoapi",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node-dev src/server.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.7.2",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
-  },
-  "devDependencies": {
-    "@types/axios": "^0.14.0",
-    "@types/express": "^4.17.21",
-    "@types/node": "^20.12.13",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.4.5"
-  }
+    "name": "ramengoapi",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "start": "ts-node-dev src/server.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.7.2",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/express": "^4.17.21",
+        "@types/jest": "^29.5.12",
+        "@types/node": "^20.12.13",
+        "axios-mock-adapter": "^1.22.0",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.1.4",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.4.5"
+    }
 }
